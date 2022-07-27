@@ -6,7 +6,7 @@ function NavbarApp() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" sticky="top" variant="dark">
       <Container>
-        <Navbar.Brand href="#home">Course</Navbar.Brand>
+        <Navbar.Brand href="#home">IT Courses</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
