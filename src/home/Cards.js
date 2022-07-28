@@ -1,5 +1,3 @@
-import { Container } from "reactstrap"
-import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 
@@ -15,8 +13,11 @@ function Cards(){
         <Col>
             <div class="card">
                 <div class="name">Simple</div>
+                <div className="d-flex justify-content-center">
+                <img alt="Card image" src="https://picsum.photos/300/200" />
+                </div>
                 <div class="soqqa">99.000 UZS</div>
-                <div class="qq">Har 1 oyda to`lov</div>
+                <div class="oy">Har 1 oyda to`lov</div>
                 <div class="zeus">
                     <div class="cardtext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur culpa
                         cumque
@@ -37,8 +38,11 @@ function Cards(){
         <Col>
             <div class="card">
                 <div class="name">Middle</div>
+                <div className="d-flex justify-content-center">
+                <img alt="Card image" src="https://picsum.photos/300/200" />
+                </div>
                 <div class="soqqa">269.000 UZS</div>
-                <div class="qq">Har 3 oyda to`lov</div>
+                <div class="oy">Har 3 oyda to`lov</div>
                 <div class="zeus">
                     <div class="cardtext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur culpa
                         cumque
@@ -60,8 +64,11 @@ function Cards(){
         <Col>
             <div class="card">
                 <div class="name">Edvanced</div>
+                <div className="d-flex justify-content-center">
+                <img alt="Card image" src="https://picsum.photos/300/200" />
+                </div>
                 <div class="soqqa">499.000 UZS</div>
-                <div class="qq">Har 6 oyda to`lov</div>
+                <div class="oy">Har 6 oyda to`lov</div>
                 <div class="zeus">
                     <div class="cardtext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur culpa
                         cumque

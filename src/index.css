@@ -1,8 +1,10 @@
+body{
+  background-color: rgba(172, 172, 248, 0.39);
+}
 .front-link{
   font-family: 'Poppins', sans-serif;
-  font-size: 50px;
+  font-size: 45px;
   text-align: center;
-  padding-top: 150px;
 }
 
 .courses{
@@ -11,13 +13,16 @@
   text-align: center;
 }
 .headeraa{
-  background-image: url("../public/download.jpg");
   height: 500px;
   width: 100%;
 }
 
-.padding {
-  padding-top: 1px;
+.headerIamge{
+  background-image: url("./images/");
+}
+
+.navbar{
+  background-color: transparent;
 }
 
 .text1 {
@@ -37,7 +42,7 @@
 .name {
   font-size: 30px;
   font-weight: 900;
-  margin-bottom: 38px;
+  margin-bottom: 30px;
   display: flex;
   justify-content: center;
   position: relative;
@@ -46,12 +51,13 @@
 .soqqa {
   font-size: 35px;
   font-weight: 900;
+  margin-top: 5px;
   margin-bottom: 2px;
   display: flex;
   justify-content: center;
 }
 
-.qq {
+.oy {
   font-weight: 900;
   display: flex;
   justify-content: center;
@@ -61,7 +67,7 @@
 .cardtext {
   display: flex;
   justify-content: center;
-  padding: 10px;
+  padding: 20px;
   margin-bottom: 50px;
   align-items: center;
   box-sizing: border-box;
@@ -78,6 +84,16 @@
   transition: all 0.2s linear;
 
 }
+.connect {
+  width: 175px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #212529;
+  color: white;
+
+}
 
 .click {
   display: flex;
@@ -85,13 +101,9 @@
   padding-bottom: 60px;
 }
 
-.card:hover {
-  box-shadow: 0 0 10px lightsteelblue;
-  transform: scale(1.1)
-}
 .card::after{
   content: '';
-  width: 0;
+  width: 100%;
   height: 4px;
   background-color: #212529;
   transition: all 0.5s 0s linear;
@@ -100,6 +112,11 @@
   left: 0;
 }
 .obuna:hover {
+  background-color: #212529;
+  color: #fff;
+  transform: scale(1);
+}
+.connect:hover {
   background-color: #212529;
   color: #fff;
   transform: scale(1);
@@ -115,11 +132,6 @@
   top: 0;
   transition: all 0.5s linear;
 
-}
-
-.card:hover::after {
-  width: 100%;
-  transform: scale(1);
 }
 
 .navbar ul li a:hover::before {
@@ -201,4 +213,19 @@
   padding-bottom: 10px;
   position: relative;
 
+}
+
+.SignUp{
+  border-radius: 5px;
+  border: solid;
+  background-color: #212529;
+  width: 350px;
+}
+
+.textsign{
+  color: white;
+}
+
+.qq{
+  height: 100%;
 }
