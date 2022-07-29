@@ -3,13 +3,13 @@ import Row from 'react-bootstrap/Row';
 
 function Cards(){
     return(
-        <>
+        <div className='itCourses'>
         <div>
-            <h3 className="courses mt-5">
+            <h3 className="courses pb-3">
                 Courses
             </h3>
         </div>
-    <Row xs={1} md={2} lg={4} className="g-4 mt-3 d-flex justify-content-center">
+    <Row xs={1} md={2} lg={4} className="g-4 mt-1 d-flex justify-content-center">
         <Col>
             <div class="card">
                 <div class="name">Simple</div>
@@ -87,7 +87,7 @@ function Cards(){
             <div class="text1"></div>
         </Col>
     </Row>
-    </>
+    </div>
     )
 }
 export default Cards

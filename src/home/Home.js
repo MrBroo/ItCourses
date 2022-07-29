@@ -1,6 +1,7 @@
 import Cards from "./Cards"
 import Footer from "./Footer"
 import Header from "./Header"
+import MidWork from "./MidWork"
 import NavbarApp from "./NavbarApp"
 
 function Home(){
@@ -9,6 +10,7 @@ function Home(){
 <NavbarApp />
 <Header />
 <Cards />
+<MidWork />
 <Footer />
 </>
   )
