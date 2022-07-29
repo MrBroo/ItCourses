@@ -1,5 +1,6 @@
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+import imgTop from "../images/imageTop.png"
 
 function Cards(){
     return(
@@ -14,7 +15,7 @@ function Cards(){
             <div class="card">
                 <div class="name">Simple</div>
                 <div className="d-flex justify-content-center">
-                <img alt="Card image" src="https://picsum.photos/300/200" />
+                <img alt="Card image" src={imgTop} />
                 </div>
                 <div class="soqqa">99.000 UZS</div>
                 <div class="oy">Har 1 oyda to`lov</div>
