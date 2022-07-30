@@ -1,7 +1,7 @@
 import imgTop from "../images/imageTop.png"
 function Header(){
     return(
-    <div className="headeraa">.
+    <div className="headeraa">
           <div className="row">
             <div className="col-5 offset-1 d-flex align-items-center" style={{height: "92vh"}}>
                 <div>

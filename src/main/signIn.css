@@ -1,0 +1,44 @@
+.signIn{
+    width: 100%;
+    height: 100vh;
+
+}
+
+.signInWork{
+    border-radius: 5px;
+    border: solid #ced9ee2d;
+    background-color: #ced9ee2d;
+    width: 430px;
+    box-shadow: 0 0 15px lightsteelblue;
+}
+
+.signInButton{
+        width: 100%;
+        height: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #ced9ee2d;
+        border-radius: 5px;
+        color: white;
+        background-color: #ced9ee2d;
+        box-shadow: 0 0 15px lightsteelblue;
+}
+
+.signInButton:hover{
+    color: white;
+}
+
+
+.signInWrapper{
+    background-image: url("../images/architecture.jpg");
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .signInBackColor{
+    background-color: #598ae663;
+    width: 100%;
+    height: 100vh;
+  }
+  

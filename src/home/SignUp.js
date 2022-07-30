@@ -1,4 +1,6 @@
 import { Container, Button, Input } from "reactstrap"
+import { TextField } from "@mui/material"
+import AccountCircle from '@mui/icons-material/AccountCircle';
 function SignUp(){
     return(
         <div className="signWrapper">
@@ -20,24 +22,18 @@ function SignUp(){
                             </div>
                             <Container>
                             <div className="pb-3">
-                                <Input placeholder='Ism' style={{
-                                     backgroundColor: "#ced9ee2d", boxShadow: "0 0 15px lightsteelblue",
-                                      color: "white"}} className="signInput"/>
-                                </div>  
-                                <div className="pb-3">
-                                <Input placeholder='Telefon'  style={{
-                                     backgroundColor: "#ced9ee2d", boxShadow: "0 0 15px lightsteelblue",
-                                      color: "white"}} className="signInput" />
-                                </div>
-                                <div className="pb-3">
-                                <Input placeholder='Username'  style={{
-                                     backgroundColor: "#ced9ee2d", boxShadow: "0 0 15px lightsteelblue",
-                                      color: "white"}} className="signInput" />
-                                </div>
-                                <div className="pb-3">
-                                <Input placeholder='Parol'  style={{
-                                     backgroundColor: "#ced9ee2d", boxShadow: "0 0 15px lightsteelblue",
-                                      color: "white", border: "2px solid #ced9ee2d"}}/>
+                            <div>
+                           <input placeholder="Ism" className="py-1 px-2" />
+                           <input placeholder="Telefon" className="py-1 px-2"  />
+                           <input placeholder="Username" className="py-1 px-2"  />
+                           <input placeholder="Parol" className="py-1 px-2"  />
+                            </div>
+                            </div>
+                            <div>
+                            <hr className="text-white" />
+                            <div className="text-center text-white">Ro`yxatdan o`tganmisiz? 
+                                <a href="/SignIn" className="text-decoration-none text-white mx-2">Sign In</a>
+                            </div>
                             </div>
                             <div class="d-flex justify-content-end my-4">
                                 <button className="signButton">Ro`yxatdan o`tish</button>

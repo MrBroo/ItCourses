@@ -10,8 +10,8 @@ body{
   font-family: 'Poppins', sans-serif;
   font-size: 40px;
   text-align: center;
-  color: #1f3253;
-  padding-top: 55px;
+  color: white;
+  margin-bottom: 25px;
 
 }
 .headeraa{
@@ -47,16 +47,6 @@ body{
   color: white !important;
 }
 
-.card {
-  width: 100%;
-  background-color: #fff;
-  margin: 0 auto;
-  padding-top: 50px;
-  border-radius: 5px;
-  transition: all 0.5s linear;
-  position: relative;
-}
-
 .name {
   font-size: 30px;
   font-weight: 900;
@@ -86,12 +76,6 @@ body{
 }
 
 .cardtext {
-  display: flex;
-  justify-content: center;
-  padding: 20px;
-  margin-bottom: 50px;
-  align-items: center;
-  box-sizing: border-box;
   color: #1f3253;
 }
 
@@ -187,6 +171,7 @@ body{
   background-color: #1f3253;
   padding-bottom: 10px;
   position: relative;
+  margin-top: 50px;
 
 }
 
@@ -200,7 +185,7 @@ body{
 }
 
 .signWrapper{
-  background-image: url("./images/architecture.jpg");
+  background-image: url("../images/architecture.jpg");
   width: 100%;
   height: 100vh;
 }
@@ -222,13 +207,25 @@ body{
   color: white;
   background-color: #ced9ee2d;
   box-shadow: 0 0 15px lightsteelblue;
-}s
-
-signInput{
-  background-color: #ced9ee2d !important;
-  box-shadow: 0 0 15px lightsteelblue !important;
-  color: white !important;
 }
+
+input{
+  color: white;
+  width: 100%;
+  border: 0;
+  background-color: #ced9ee2d;
+  box-shadow: 0 0 15px lightsteelblue;
+  margin-bottom: 15px;
+}
+input::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+input:focus{
+  outline: none;
+}
+
 .textsign{
   color: white;
 }
@@ -237,32 +234,8 @@ signInput{
   height: 100%;
 }
 
-.itCourses{
-  background-color: white;
-  padding-bottom: 25px;
-}
-
 .aboutImg{
   width: 380px;
   height: 450px;
   border-radius: 15px;
-}
-
-.midWork{
-  background-color: white;
-}
-
-.midWorkSocial{
-  background-color: #1f3253;
-  width: 1006px;
-  margin-bottom: 60px;
-  border-radius: 5px;
-}
-
-.midText{
-  font-weight: 700;
-  font-size: 25px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  color: white;
 }
