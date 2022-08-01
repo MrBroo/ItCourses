@@ -1,27 +1,20 @@
 body{
-  background-color: #3b7bf1;
+  background-color: #16618f;
 }
 .front-link{
   font-weight: 700;
   font-size: 35px;
 }
 
-.courses{
-  font-family: 'Poppins', sans-serif;
-  font-size: 40px;
-  text-align: center;
-  color: white;
-  margin-bottom: 25px;
-
-}
 .headeraa{
   height: 100vh;
   width: 100%;
 }
 
 .headerImage img{
-  width: 500px;
-  height: 480px;
+  margin-top: 20px;
+  width: 510px;
+  height: 470px;
   margin-left: 25px;
 }
 .headerImage{
@@ -39,40 +32,6 @@ body{
   50%  {bottom:20px; top:20px;}
   75%  {bottom:0px; top:20px;}
   100% {bottom:0px; top:0px;}
-}
-.navbar{
-  background-color: transparent;
-}
-.navlinks{
-  color: white !important;
-}
-
-.name {
-  font-size: 30px;
-  font-weight: 900;
-  margin-bottom: 30px;
-  display: flex;
-  justify-content: center;
-  position: relative;
-  color: #1f3253;
-}
-
-.soqqa {
-  font-size: 35px;
-  font-weight: 900;
-  margin-top: 5px;
-  margin-bottom: 2px;
-  display: flex;
-  justify-content: center;
-  color: #1f3253;
-}
-
-.oy {
-  font-weight: 900;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 22px;
-  color: #1f3253;
 }
 
 .cardtext {
@@ -171,16 +130,15 @@ body{
   background-color: #1f3253;
   padding-bottom: 10px;
   position: relative;
-  margin-top: 50px;
 
 }
 
 .signUp{
   border-radius: 5px;
   border: solid #ced9ee2d;
-  background-color: #ced9ee2d;
-  width: 400px;
-  margin-right: 100px;
+  background-color: #ced9eeb0;
+  width: 55vh;
+  margin-right: 50px;
   box-shadow: 0 0 15px lightsteelblue;
 }
 
@@ -232,10 +190,4 @@ input:focus{
 
 .qq{
   height: 100%;
-}
-
-.aboutImg{
-  width: 380px;
-  height: 450px;
-  border-radius: 15px;
 }

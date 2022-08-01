@@ -1,9 +1,12 @@
+import { Container } from "react-bootstrap"
 import imgTop from "../images/imageTop.png"
 function Header(){
     return(
     <div className="headeraa">
+        <div className="headerColor">
+        <Container>
           <div className="row">
-            <div className="col-5 offset-1 d-flex align-items-center" style={{height: "92vh"}}>
+            <div className="col-6 d-flex align-items-center" style={{height: "92vh"}}>
                 <div>
                 <div>       
                  <p className="front-link mb-0 text-white">We are Latin America’s and</p>
@@ -32,7 +35,9 @@ function Header(){
             </div>
             <div className="headerImage col-4"> <img src={imgTop} /> </div>
           </div>
+        </Container>
     </div>
+</div>
     )
 }
 export default Header

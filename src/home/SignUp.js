@@ -21,12 +21,12 @@ function SignUp(){
                                  <h2 className="textsign text-center mt-3 mb-4">SignUp</h2>
                             </div>
                             <Container>
-                            <div className="pb-3">
+                            <div className="pb-2">
                             <div>
-                           <input placeholder="Ism" className="py-1 px-2" />
-                           <input placeholder="Telefon" className="py-1 px-2"  />
-                           <input placeholder="Username" className="py-1 px-2"  />
-                           <input placeholder="Parol" className="py-1 px-2"  />
+                           <input placeholder="Ism" className="py-1 px-3" />
+                           <input placeholder="Telefon" className="py-1 px-3"  />
+                           <input placeholder="Username" className="py-1 px-3"  />
+                           <input placeholder="Parol" className="py-1 px-3"  />
                             </div>
                             </div>
                             <div>

@@ -1,0 +1,27 @@
+
+
+.navButton{
+    display: flex;
+    border: 2px solid white;
+    border-radius: 2px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.navLine::after{
+    content: '';
+    width: 1px;
+    height: 35%;
+    background-color: white;
+    position: absolute;
+    left: 62px;
+    top: 17px;
+  }
+
+  .navbar{
+    background-color: transparent;
+  }
+  .navlinks{
+    color: white !important;
+    font-size: 22px  !important;
+  }
