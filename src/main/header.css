@@ -1,0 +1,91 @@
+
+.headeraa{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/Code-e1493037111360.jpg");
+    background-size: cover;
+  
+  }
+  
+.connect {
+  width: 175px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color:  #141416;
+
+}
+.courseConnect {
+  width: 170px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid  white;
+  color:  white;
+  transition: all 0.2s linear;
+}
+
+.connect:hover {
+  color:  #141416;
+}
+.courseConnect:hover {
+  color: #fff;
+
+}
+  .headerColor{
+    background-color: #1e1f255b;
+  }
+  
+  .headText{
+  display: flex;
+  align-items: center;
+  height: 95vh;
+  }
+
+  .headClick{
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+  }
+
+  .headButtonGroup{
+    display: flex;
+  }
+
+@media (max-width: 976px) {
+   .headText{
+    display: flex;
+    justify-content: center;
+
+}
+  }
+
+  @media (max-width: 500px) {
+    .headText p{
+    text-align: center;
+ 
+ }
+ .headButtonGroup{
+  display: flex;
+  justify-content: center;
+}
+}
+
+ @media (max-width: 376px) {
+  .headButtonGroup{
+    display: block;
+  }
+
+  .courseConnect{
+    margin-top: 15px;
+    height: 48px;
+  }
+  .connect{
+    width: 150px;
+    height: 48px;
+  }
+}
+   

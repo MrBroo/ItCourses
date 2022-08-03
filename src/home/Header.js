@@ -1,17 +1,16 @@
 import { Container } from "react-bootstrap"
-import imgTop from "../images/imageTop.png"
 function Header(){
     return(
     <div className="headeraa">
-        <div className="headerColor">
+        <div className="headerColor">   
         <Container>
           <div className="row">
-            <div className="col-6 d-flex align-items-center" style={{height: "92vh"}}>
+            <div className="headText col-lg-6 col-md-12 col-sm-12">
                 <div>
                 <div>       
                  <p className="front-link mb-0 text-white">We are Latin America’s and</p>
                  <div style={{width: "58vh"}}>
-                 <hr className="mb-3 mt-2 text-white" />
+                 <hr className="mb-3 mt-2 text-white text-center" />
                  </div>
                </div>
                <div className="mb-2">
@@ -19,13 +18,13 @@ function Header(){
                     a as the href value. If you provide a valid href, but still need the <br />
                     button and change still need the element to resemble a link . If you </p>
                </div>
-               <div className="d-flex">
-               <div className="click" style={{marginRight: 20}}>
+               <div className="headButtonGroup">
+               <div className="headClick">
                     <a class="connect text-decoration-none" href="#">
                         Sign Up
                     </a>
                 </div>
-                <div class="click">
+                <div class="headClick">
                     <a class="courseConnect text-decoration-none" href="#">
                         Courses
                     </a>
@@ -33,7 +32,6 @@ function Header(){
                 </div>
                 </div>
             </div>
-            <div className="headerImage col-4"> <img src={imgTop} /> </div>
           </div>
         </Container>
     </div>

@@ -1,12 +1,10 @@
 import { Container, Button, Input } from "reactstrap"
-import { TextField } from "@mui/material"
-import AccountCircle from '@mui/icons-material/AccountCircle';
 function SignUp(){
     return(
         <div className="signWrapper">
         <div className="signBackColor">
         <Container>
-            <div style={{height: "100vh"}} className="d-flex justify-content-between align-items-center">
+            <div className="signContent">
                 <div>
                         <h3 className="text-white">SignUp</h3>
                         <hr className="text-white" />

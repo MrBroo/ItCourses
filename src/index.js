@@ -4,6 +4,7 @@ import './main/index.css';
 import './main/cards.css';
 import './main/signIn.css';
 import './main/navbar.css';
+import './main/header.css';
 import App from './App';
 import { BrowserRouter } from "react-router-dom";
 

@@ -1,39 +1,8 @@
-body{
-  background-color: #16618f;
-}
+
 .front-link{
   font-weight: 700;
   font-size: 35px;
 }
-
-.headeraa{
-  height: 100vh;
-  width: 100%;
-}
-
-.headerImage img{
-  margin-top: 20px;
-  width: 510px;
-  height: 470px;
-  margin-left: 25px;
-}
-.headerImage{
-  animation-name: headerImage;
-  position: relative;
-  animation-duration: 3s;
-  /* animation-delay: s; */
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-}
-
-@keyframes headerImage {
-  0%   {bottom:0px; top:0px;}
-  25%  {bottom:20px; top:0px;}
-  50%  {bottom:20px; top:20px;}
-  75%  {bottom:0px; top:20px;}
-  100% {bottom:0px; top:0px;}
-}
-
 .cardtext {
   color: #1f3253;
 }
@@ -49,27 +18,6 @@ body{
   transition: all 0.2s linear;
 
 }
-.connect {
-  width: 175px;
-  height: 48px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: white;
-  color:  #3b7bf1
-
-}
-.courseConnect {
-  width: 170px;
-  height: 48px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid  white;
-  color:  white;
-  transition: all 0.2s linear;
-}
-
 .click {
   display: flex;
   justify-content: center;
@@ -91,13 +39,6 @@ body{
   color: #fff;
   transform: scale(1);
 }
-.connect:hover {
-  color:  #3b7bf1;
-}
-.courseConnect:hover {
-  color: #fff;
-
-}
 
 .tafsiya {
   background-color: #1f3253;
@@ -113,6 +54,7 @@ body{
   margin-top: 15px;
   font-size: 15px;
 }
+
 .tafsiya::before {
   content: '';
   border: 4px solid #1f3253;
@@ -126,11 +68,18 @@ body{
 }
 
 .footer {
-  /* background: #212529; */
-  background-color: #1f3253;
+ 
+  background-color: #141416;
   padding-bottom: 10px;
   position: relative;
 
+}
+
+.signContent{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
 }
 
 .signUp{
@@ -183,6 +132,31 @@ input::placeholder {
 input:focus{
   outline: none;
 }
+
+@media (max-width: 991px) {
+  .signBackColor p{
+    display: none;
+  }
+
+  .signBackColor h3{
+    display: none;
+  }
+
+  .signContent{
+    display: flex;
+    justify-content: center;
+  }
+  .signUp{
+    width: 68vh;
+    margin-right: 0;
+  }
+ }
+ @media (max-width: 1326px){
+  .signUp{
+    width: 68vh;
+    margin-right: 0;
+  }
+ }
 
 .textsign{
   color: white;

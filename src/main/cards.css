@@ -1,7 +1,7 @@
 .cardsWrap{
     background-color: white;
     border-radius: 20px;
-    border: 3px solid #16618f;
+  
 }
 
 .cardButton{
@@ -12,17 +12,17 @@
   justify-content: center;
   align-items: center;
   background-color: white;
-  border: 2px solid #16618f;
-  color: #16618f;
+  border: 2px solid #1e1f25;
+  color: #1e1f25;
   position: relative;
 }
 
 .cardtext {
-  color: #16618f;
+  color: #1e1f25;
 }
 
 .cardButton:hover{
-    background-color: #16618f;;
+    background-color: #1e1f25;
     color: white;
 }
 
@@ -30,7 +30,7 @@
     content: '';
     width: 1px;
     height: 48%;
-    background-color: #16618f;;
+    background-color: #1e1f25;
     position: absolute;
     left: 12px;
   }
@@ -41,15 +41,33 @@
 
   .cardsPage{
     padding-bottom: 50px;
-    background-color: white;
+    background-color: #1e1f25;
   }
 
   .courses{
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
     text-align: center; 
-    color: #16618f;
+    color: white;
     margin-bottom: 25px;
     padding-top: 30px;
   
   }
+
+  .cardImage{
+    width: 25vh;
+    height: 25vh;
+  }
+
+  @media (max-width: 990px) {
+    .cardCourse p {
+      display: none;
+    }
+    .cardLine::after {
+      display: none;
+    }
+
+    .cardButton{
+      display: none;
+    }
+   }

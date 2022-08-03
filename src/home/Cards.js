@@ -12,8 +12,8 @@ function Cards(){
         <div className='cardsWrap'>
 <div className="cardCourse">
     <div className='row'>
-        <div className="col-9 d-flex align-items-center justify-content-center">
-            <div className='mx-4 py-4'><img src={cardImage}width="250px" height="160px" alt="alt" /></div>
+        <div className="col-9 d-flex align-items-center justify-content-start">
+            <div className='mx-4 py-4'><img src={cardImage} className="cardImage" alt="alt" /></div>
             <div>
                 <h3 className='cardtext'>Courses</h3>
                 <p className='cardtext'> The href attribute requires a valid value to be accessible. <br />
@@ -32,8 +32,8 @@ function Cards(){
 <div className='cardsWrap my-4'>
 <div className="cardCourse">
     <div className='row'>
-        <div className="col-9 d-flex align-items-center justify-content-center">
-            <div className='mx-4 py-4'><img src={cardImage} width="250px" height="160px" alt="alt" /></div>
+        <div className="col-9 d-flex align-items-center justify-content-start">
+            <div className='mx-4 py-4'><img src={cardImage} className="cardImage" alt="alt" /></div>
             <div>
                 <h3 className='cardtext'>Courses</h3>
                 <p className='cardtext'> The href attribute requires a valid value to be accessible. <br />
@@ -52,8 +52,8 @@ function Cards(){
 <div className='cardsWrap'>
 <div className="cardCourse">
     <div className='row'>
-        <div className="col-9 d-flex align-items-center justify-content-center">
-            <div className='mx-4 py-4'><img src={cardImage} width="250px" height="160px" alt="alt" /></div>
+        <div className="col-9 d-flex align-items-center justify-content-start">
+            <div className='mx-4 py-4'><img src={cardImage} className="cardImage" alt="alt" /></div>
             <div>
                 <h3 className='cardtext'>Courses</h3>
                 <p className='cardtext'> The href attribute requires a valid value to be accessible. <br />
