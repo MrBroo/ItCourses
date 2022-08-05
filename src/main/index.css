@@ -1,8 +1,4 @@
 
-.front-link{
-  font-weight: 700;
-  font-size: 35px;
-}
 .cardtext {
   color: #1f3253;
 }
@@ -84,21 +80,26 @@
 
 .signUp{
   border-radius: 5px;
-  border: solid #ced9ee2d;
-  background-color: #ced9eeb0;
-  width: 55vh;
-  margin-right: 50px;
-  box-shadow: 0 0 15px lightsteelblue;
+  border: 2px solid #ced9ee2d;
+  background-color: #1e1f255b;
+  width: 390px;
+  margin-right: 40px;
+  box-shadow: 0 0 15px #1e1f255b;
+}
+
+.signUpText{
+  font-size: 17px;
 }
 
 .signWrapper{
-  background-image: url("../images/architecture.jpg");
+  background-image: url("../images/headerCompNew.jpg");
+  background-size: cover;
   width: 100%;
   height: 100vh;
 }
 
 .signBackColor{
-  background-color: #598ae663;
+  background-color: #1e1f255b;
   width: 100%;
   height: 100vh;
 }
@@ -112,16 +113,16 @@
   border: 2px solid #ced9ee2d;
   border-radius: 5px;
   color: white;
-  background-color: #ced9ee2d;
-  box-shadow: 0 0 15px lightsteelblue;
+  background-color: #1e1f255b;
+  box-shadow: 0 0 15px #1e1f255b;
 }
 
 input{
   color: white;
   width: 100%;
-  border: 0;
-  background-color: #ced9ee2d;
-  box-shadow: 0 0 15px lightsteelblue;
+  border: 2px solid #ced9ee2d;
+  background-color: #1e1f255b;
+  box-shadow: 0 0 15px #1e1f255b;
   margin-bottom: 15px;
 }
 input::placeholder {
@@ -138,7 +139,7 @@ input:focus{
     display: none;
   }
 
-  .signBackColor h3{
+  .signLeft{
     display: none;
   }
 
@@ -147,13 +148,13 @@ input:focus{
     justify-content: center;
   }
   .signUp{
-    width: 68vh;
+    width: 340;
     margin-right: 0;
   }
  }
  @media (max-width: 1326px){
   .signUp{
-    width: 68vh;
+    width: 340px;
     margin-right: 0;
   }
  }

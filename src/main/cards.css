@@ -18,9 +18,13 @@
 }
 
 .cardtext {
+  font-weight: 700;
   color: #1e1f25;
 }
 
+.cardTextP {
+  color: #1e1f25;
+}
 .cardButton:hover{
     background-color: #1e1f25;
     color: white;
@@ -55,19 +59,39 @@
   }
 
   .cardImage{
-    width: 25vh;
-    height: 25vh;
+    width: 155px;
+    height: 110px;
   }
 
   @media (max-width: 990px) {
-    .cardCourse p {
-      display: none;
-    }
+  
     .cardLine::after {
       display: none;
     }
 
     .cardButton{
       display: none;
+    }
+   }
+
+   @media (max-width: 767px){
+    .cardCourse p {
+      display: none;
+    }
+   }
+
+   @media (max-width: 430px){
+
+    .cardImage{
+      width: 130px;
+      height: 100px;
+    }
+   }
+
+   @media (max-width: 400px){
+
+    .cardImage{
+      width: 90px;
+      height: 70px;
     }
    }

@@ -16,7 +16,7 @@ function NavbarApp() {
           <Nav>
           <div className="navButton py-1 px-2">
             <div className='navLine'></div>
-            <Nav.Link href="/SignIn" className="text-white">Kirish</Nav.Link>
+            <Nav.Link href="/SignIn" className="navSign text-white">Kirish</Nav.Link>
             <Nav.Link href="/SignUp" className="text-white">Ro`yxatdan o`tish</Nav.Link>
           </div>
           </Nav>

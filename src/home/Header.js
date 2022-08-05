@@ -5,18 +5,18 @@ function Header(){
         <div className="headerColor">   
         <Container>
           <div className="row">
-            <div className="headText col-lg-6 col-md-12 col-sm-12">
+            <div className="headWrap col-lg-6 col-md-12 col-sm-12">
                 <div>
                 <div>       
-                 <p className="front-link mb-0 text-white">We are Latin America’s and</p>
-                 <div style={{width: "58vh"}}>
-                 <hr className="mb-3 mt-2 text-white text-center" />
+                 <p className="headerText mb-0 text-white">We are Latin America’s and</p>
+                 <div className="headerHr">
+                 <hr className="mb-3 mt-2 text-white" />
                  </div>
                </div>
                <div className="mb-2">
-                <p className="text-white"> The href attribute requires a valid value to be accessible. Provide <br />
-                    a as the href value. If you provide a valid href, but still need the <br />
-                    button and change still need the element to resemble a link . If you </p>
+                <p className="headerP text-white"> The href attribute requires a valid value to be accessible. <br />
+                    a as the href value. If you provide a valid href, but still need<br />
+                    button and change still need the element to resemble a link </p>
                </div>
                <div className="headButtonGroup">
                <div className="headClick">
@@ -24,7 +24,7 @@ function Header(){
                         Sign Up
                     </a>
                 </div>
-                <div class="headClick">
+                <div class="headClick mx-1.5">
                     <a class="courseConnect text-decoration-none" href="#">
                         Courses
                     </a>

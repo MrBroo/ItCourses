@@ -11,10 +11,10 @@ function SignIn() {
                                 <div>
                                     <h3 className="text-center text-white pt-2 pb-3">Sign In</h3>
                                     <div className="mb-1">
-                                        <input placeholder="Username" className="py-2" />
+                                        <input placeholder="Username" className="py-2 px-3" />
                                     </div>
                                     <div>
-                                        <input placeholder="Parol" className="py-2" />
+                                        <input placeholder="Parol" className="py-2 px-3" />
                                     </div>
                                 </div>
                                 <div className="pb-4 mt-2">

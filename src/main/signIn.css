@@ -8,10 +8,10 @@
 
 .signInWork{
     border-radius: 5px;
-    border: solid #ced9ee2d;
-    background-color: #ced9eeb0;
+    border: 2px solid #ced9ee2d;
+    background-color: #1e1f255b;
     width: 60vh;
-    box-shadow: 0 0 15px lightsteelblue;
+    box-shadow: 0 0 15px #1e1f255b;
 }
 
 .signInButton{
@@ -23,8 +23,8 @@
         border: 2px solid #ced9ee2d;
         border-radius: 5px;
         color: white;
-        background-color: #ced9ee2d;
-        box-shadow: 0 0 15px lightsteelblue;
+        background-color: #1e1f255b;
+        box-shadow: 0 0 15px #1e1f255b;
 }
 
 .signInButton:hover{
@@ -33,13 +33,14 @@
 
 
 .signInWrapper{
-    background-image: url("../images/architecture.jpg");
+    background-image: url("../images/headerCompNew.jpg");
+    background-size: cover;
     width: 100%;
     height: 100vh;
   }
   
   .signInBackColor{
-    background-color: #598ae663;
+    background-color: #1e1f255b;
     width: 100%;
     height: 100vh;
   }

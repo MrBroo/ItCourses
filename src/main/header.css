@@ -1,8 +1,17 @@
 
+.headerText{
+  font-weight: 700;
+  font-size: 42px;
+}
+
+.headerP{
+  font-size: 20px;
+}
+
 .headeraa{
-    width: 100%;
-    height: 100vh;
-    background-image: url("../images/Code-e1493037111360.jpg");
+    /* width: 100%;
+    height: 100%; */
+    background-image: url("../images/headerComp.jpg");
     background-size: cover;
   
   }
@@ -39,10 +48,14 @@
     background-color: #1e1f255b;
   }
   
-  .headText{
+  .headWrap{
   display: flex;
   align-items: center;
-  height: 95vh;
+  height: 88vh;
+  }
+
+  .headerHr{
+    width: 58vh;
   }
 
   .headClick{
@@ -56,21 +69,42 @@
   }
 
 @media (max-width: 976px) {
-   .headText{
+   .headWrap{
     display: flex;
     justify-content: center;
 
 }
   }
 
-  @media (max-width: 500px) {
-    .headText p{
-    text-align: center;
- 
- }
- .headButtonGroup{
+  @media (max-width: 767px) {
+  .headButtonGroup{
   display: flex;
   justify-content: center;
+  
+  }
+  .headClick{
+    margin-right: 0;
+  }
+
+  .headerText{
+  text-align: center;
+  font-size: 38px;
+ 
+ }
+ .headerP{
+  text-align: center;
+    font-size: 16px;
+ }
+
+.headerHr{
+ display: none;
+}
+.courseConnect{
+  margin-left: 10px;
+  width: 166px;
+}
+.connect{
+  width: 171px;
 }
 }
 
@@ -82,6 +116,7 @@
   .courseConnect{
     margin-top: 15px;
     height: 48px;
+    margin-left: 0;
   }
   .connect{
     width: 150px;

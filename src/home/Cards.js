@@ -12,11 +12,11 @@ function Cards(){
         <div className='cardsWrap'>
 <div className="cardCourse">
     <div className='row'>
-        <div className="col-9 d-flex align-items-center justify-content-start">
+        <div className="col-lg-9 col-md-12 col-sm-12  d-flex align-items-center justify-content-start">
             <div className='mx-4 py-4'><img src={cardImage} className="cardImage" alt="alt" /></div>
             <div>
                 <h3 className='cardtext'>Courses</h3>
-                <p className='cardtext'> The href attribute requires a valid value to be accessible. <br />
+                <p className='cardTextP'> The href attribute requires a valid value to be accessible. <br />
                     a as the href value. If you provide a valid href, but still <br />
                     button and change still need the element to resemble a </p>
             </div>
@@ -32,11 +32,11 @@ function Cards(){
 <div className='cardsWrap my-4'>
 <div className="cardCourse">
     <div className='row'>
-        <div className="col-9 d-flex align-items-center justify-content-start">
+        <div className="col-lg-9 col-md-12 col-sm-12  d-flex align-items-center justify-content-start">
             <div className='mx-4 py-4'><img src={cardImage} className="cardImage" alt="alt" /></div>
             <div>
                 <h3 className='cardtext'>Courses</h3>
-                <p className='cardtext'> The href attribute requires a valid value to be accessible. <br />
+                <p className='cardTextP'> The href attribute requires a valid value to be accessible. <br />
                     a as the href value. If you provide a valid href, but still <br />
                     button and change still need the element to resemble a </p>
             </div>
@@ -52,11 +52,11 @@ function Cards(){
 <div className='cardsWrap'>
 <div className="cardCourse">
     <div className='row'>
-        <div className="col-9 d-flex align-items-center justify-content-start">
+        <div className="col-lg-9 col-md-12 col-sm-12  d-flex align-items-center justify-content-start">
             <div className='mx-4 py-4'><img src={cardImage} className="cardImage" alt="alt" /></div>
             <div>
                 <h3 className='cardtext'>Courses</h3>
-                <p className='cardtext'> The href attribute requires a valid value to be accessible. <br />
+                <p className='cardTextP'> The href attribute requires a valid value to be accessible. <br />
                     a as the href value. If you provide a valid href, but still <br />
                     button and change still need the element to resemble a</p>
             </div>

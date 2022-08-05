@@ -6,9 +6,9 @@ function SignUp(){
         <Container>
             <div className="signContent">
                 <div>
-                        <h3 className="text-white">SignUp</h3>
+                        <h2 className="signLeft text-white">SignUp</h2>
                         <hr className="text-white" />
-                        <p className="text-white">  The href attribute requires a valid value to be accessible. Provide <br />
+                        <p className="signUpText text-white">  The href attribute requires a valid value to be accessible. Provide <br />
                              a as the href value. If you provide a valid href, but still need the <br />
                              The href attribute requires a valid value to be accessible. Provide <br />
                              a as the href value. If you provide a valid href, but still need the <br />

@@ -26,3 +26,21 @@
     color: white !important;
     font-size: 22px  !important;
   }
+
+
+
+@media (max-width: 991px){
+  .navButton{
+    width: 39vh;
+    margin-left: 15px;
+  }
+
+  .navSign{
+    margin-right: 20px;
+    margin-left: 5px;
+  }
+
+  .navLine::after{
+    left: 60px;
+  }
+}
