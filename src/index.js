@@ -5,6 +5,7 @@ import './main/cards.css';
 import './main/signIn.css';
 import './main/navbar.css';
 import './main/header.css';
+import './main/userCourses.css';
 import App from './App';
 import { BrowserRouter } from "react-router-dom";
 
