@@ -85,7 +85,6 @@
   width: 390px;
   margin-right: 40px;
   box-shadow: 0 0 15px #1e1f255b;
-  position: relative;
 }
 
 .signUpText{
@@ -108,15 +107,17 @@
 
 
 .signUpAlert{
-  position: absolute;
-  padding-top: 15px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 15px;
+  border: 2px solid #ced9ee2d;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px;
   background-color: #1e1f255b;
   color: white;
-  top: 25px;
-  right: 80px;
+  text-align: center;
+  margin-bottom: 25px;
+  margin-right: 40px;
+  width: 80%;
 }
 
 .signButton{
@@ -163,14 +164,23 @@ input:focus{
     justify-content: center;
   }
   .signUp{
-    width: 340;
+    width: 340px;
     margin-right: 0;
   }
+
+.signUpAlert{
+  margin-right: 0;
+  width: 100%;
+}
  }
  @media (max-width: 1326px){
   .signUp{
     width: 340px;
     margin-right: 0;
+  }
+  .signUpAlert{
+    margin-right: 0;
+    width: 100%;
   }
  }
 
